@@ -1,0 +1,122 @@
+Date,Description,Category,Income/Expense,Amount
+01-09-2024,Salary from ABC Corp,Income,Income,6000
+02-09-2024,Grocery shopping at Coles,Groceries,Expense,200.5
+03-09-2024,Sydney Water Bill,Utilities,Expense,80.75
+04-09-2024,Netflix Subscription,Entertainment,Expense,13.99
+05-09-2024,Dinner at The Rocks Cafe,Dining Out,Expense,60
+06-09-2024,Opal Card Top-up,Transportation,Expense,50
+07-09-2024,Freelance Graphic Design Work,Income,Income,1500
+08-09-2024,Petrol at BP Station,Transportation,Expense,70
+09-09-2024,Gym Membership Fee,Fitness,Expense,40
+10-09-2024,Rent Payment,Accommodation,Expense,2000
+11-09-2024,Office Supplies from Officeworks,Miscellaneous,Expense,100
+12-09-2024,Dividend from Stocks,Investments,Income,250
+13-09-2024,Coffee at Starbucks,Dining Out,Expense,5
+14-09-2024,Health Insurance Premium,Insurance,Expense,150
+15-09-2024,Movie Tickets at Event Cinemas,Entertainment,Expense,30
+16-09-2024,Grocery shopping at Woolworths,Groceries,Expense,180.25
+17-09-2024,Interest Earned on Savings,Income,Income,20
+18-09-2024,Donation to Red Cross,Charity,Expense,100
+19-09-2024,Electricity Bill from AGL,Utilities,Expense,120.5
+20-09-2024,Lunch at Sushi Train,Dining Out,Expense,25
+21-09-2024,Amazon Purchase,Shopping,Expense,75
+22-09-2024,Uber Ride to Airport,Transportation,Expense,35
+23-09-2024,Flight to Melbourne,Travel,Expense,200
+24-09-2024,Hotel Stay in Melbourne,Accommodation,Expense,300
+25-09-2024,Client Payment for Consulting,Income,Income,2000
+26-09-2024,Parking Fee at Sydney Airport,Transportation,Expense,60
+27-09-2024,Grocery shopping at Aldi,Groceries,Expense,150
+28-09-2024,New Laptop from JB Hi-Fi,Electronics,Expense,1500
+29-09-2024,Birthday Gift from Parents,Income,Income,500
+30-09-2024,Dinner at Quay Restaurant,Dining Out,Expense,250
+01-10-2024,Salary from ABC Corp,Income,Income,6000
+02-10-2024,Grocery shopping at Coles,Groceries,Expense,210
+03-10-2024,Sydney Water Bill,Utilities,Expense,85
+04-10-2024,Spotify Subscription,Entertainment,Expense,11.99
+05-10-2024,Lunch at Darling Harbour,Dining Out,Expense,45
+06-10-2024,Opal Card Top-up,Transportation,Expense,50
+07-10-2024,Freelance Web Design Work,Income,Income,1800
+08-10-2024,Petrol at Caltex Station,Transportation,Expense,65
+09-10-2024,Gym Membership Fee,Fitness,Expense,40
+10-10-2024,Rent Payment,Accommodation,Expense,2000
+11-10-2024,Office Supplies from Officeworks,Miscellaneous,Expense,90
+12-10-2024,Dividend from Stocks,Investments,Income,260
+13-10-2024,Coffee at Gloria Jeans,Dining Out,Expense,4.5
+14-10-2024,Health Insurance Premium,Insurance,Expense,150
+15-10-2024,Concert Tickets at Sydney Opera House,Entertainment,Expense,120
+16-10-2024,Grocery shopping at Woolworths,Groceries,Expense,190.75
+17-10-2024,Interest Earned on Savings,Income,Income,22
+18-10-2024,Donation to World Wildlife Fund,Charity,Expense,100
+19-10-2024,Electricity Bill from AGL,Utilities,Expense,115
+20-10-2024,Dinner at Italian Bowl,Dining Out,Expense,55
+21-10-2024,eBay Purchase,Shopping,Expense,80
+22-10-2024,Taxi Ride to Meeting,Transportation,Expense,30
+23-10-2024,Flight to Brisbane,Travel,Expense,180
+24-10-2024,Hotel Stay in Brisbane,Accommodation,Expense,280
+25-10-2024,Client Payment for Consulting,Income,Income,2200
+26-10-2024,Parking Fee at Darling Harbour,Transportation,Expense,25
+27-10-2024,Grocery shopping at Aldi,Groceries,Expense,160
+28-10-2024,New Smartphone from Apple Store,Electronics,Expense,1200
+29-10-2024,Gift from Friend,Income,Income,100
+30-10-2024,Lunch at Bondi Beach,Dining Out,Expense,35
+01-11-2024,Salary from ABC Corp,Income,Income,6000
+02-11-2024,Grocery shopping at Coles,Groceries,Expense,220
+03-11-2024,Sydney Water Bill,Utilities,Expense,82
+04-11-2024,Amazon Prime Subscription,Entertainment,Expense,6.99
+05-11-2024,Lunch at The Grounds of Alexandria,Dining Out,Expense,50
+06-11-2024,Opal Card Top-up,Transportation,Expense,50
+07-11-2024,Freelance Photography Work,Income,Income,1700
+08-11-2024,Petrol at Shell Station,Transportation,Expense,68
+09-11-2024,Gym Membership Fee,Fitness,Expense,40
+10-11-2024,Rent Payment,Accommodation,Expense,2000
+11-11-2024,Office Supplies from Officeworks,Miscellaneous,Expense,95
+12-11-2024,Dividend from Stocks,Investments,Income,270
+13-11-2024,Coffee at Local Cafe,Dining Out,Expense,4
+14-11-2024,Health Insurance Premium,Insurance,Expense,150
+15-11-2024,Theatre Tickets at Capitol Theatre,Entertainment,Expense,110
+16-11-2024,Grocery shopping at Woolworths,Groceries,Expense,195.5
+17-11-2024,Interest Earned on Savings,Income,Income,24
+18-11-2024,Donation to Salvation Army,Charity,Expense,100
+19-11-2024,Electricity Bill from AGL,Utilities,Expense,118
+20-11-2024,Dinner at Thai Pothong,Dining Out,Expense,60
+21-11-2024,Shopping at Myer,Shopping,Expense,150
+22-11-2024,Uber Ride to Concert,Transportation,Expense,28
+23-11-2024,Flight to Perth,Travel,Expense,350
+24-11-2024,Hotel Stay in Perth,Accommodation,Expense,320
+25-11-2024,Client Payment for Consulting,Income,Income,2100
+26-11-2024,Parking Fee at Westfield,Transportation,Expense,20
+27-11-2024,Grocery shopping at Aldi,Groceries,Expense,170
+28-11-2024,New Tablet from Harvey Norman,Electronics,Expense,800
+29-11-2024,Birthday Gift to Sibling,Expense,Expense,200
+30-11-2024,Dinner at Sydney Tower,Dining Out,Expense,180
+01-12-2024,Salary from ABC Corp,Income,Income,6000
+02-12-2024,Grocery shopping at Coles,Groceries,Expense,230
+03-12-2024,Sydney Water Bill,Utilities,Expense,83.5
+04-12-2024,Disney+ Subscription,Entertainment,Expense,8.99
+05-12-2024,Lunch at Manly Wharf,Dining Out,Expense,48
+06-12-2024,Opal Card Top-up,Transportation,Expense,50
+07-12-2024,Freelance Writing Work,Income,Income,1600
+08-12-2024,Petrol at BP Station,Transportation,Expense,70
+09-12-2024,Gym Membership Fee,Fitness,Expense,40
+10-12-2024,Rent Payment,Accommodation,Expense,2000
+11-12-2024,Office Supplies from Officeworks,Miscellaneous,Expense,85
+12-12-2024,Dividend from Stocks,Investments,Income,280
+13-12-2024,Coffee at Starbucks,Dining Out,Expense,5
+14-12-2024,Health Insurance Premium,Insurance,Expense,150
+15-12-2024,Ballet Tickets at Sydney Opera House,Entertainment,Expense,130
+16-12-2024,Grocery shopping at Woolworths,Groceries,Expense,205
+17-12-2024,Interest Earned on Savings,Income,Income,26
+18-12-2024,Donation to St. Vincent de Paul,Charity,Expense,100
+19-12-2024,Electricity Bill from AGL,Utilities,Expense,122
+20-12-2024,Dinner at Chinatown,Dining Out,Expense,55
+21-12-2024,Christmas Shopping at David Jones,Shopping,Expense,500
+22-12-2024,Taxi Ride Home,Transportation,Expense,22
+23-12-2024,Flight to Gold Coast,Travel,Expense,220
+24-12-2024,Hotel Stay in Gold Coast,Accommodation,Expense,350
+25-12-2024,Holiday Bonus from ABC Corp,Income,Income,1000
+26-12-2024,Boxing Day Sales Shopping,Shopping,Expense,400
+27-12-2024,Grocery shopping at Aldi,Groceries,Expense,180
+28-12-2024,New Year's Eve Party Tickets,Entertainment,Expense,150
+29-12-2024,Gift from Relatives,Income,Income,300
+30-12-2024,Dinner at Opera Bar,Dining Out,Expense,200
+31-12-2024,Year-End Charity Donation,Charity,Expense,500

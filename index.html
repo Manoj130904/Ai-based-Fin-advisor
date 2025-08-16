@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Financial Dashboard</h1>
+        
+        <!-- Summary Section -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Financial Summary</h2>
+            <p id="summary" class="text-gray-600"></p>
+        </div>
+
+        <!-- Transactions Table -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Transactions</h2>
+            <table class="w-full text-left">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="p-3">Description</th>
+                        <th class="p-3">Amount</th>
+                        <th class="p-3">Category</th>
+                    </tr>
+                </thead>
+                <tbody id="transactions"></tbody>
+            </table>
+        </div>
+        <!-- Personalized Advice -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Personalized Financial Advice</h2>
+            <p id="advice" class="text-gray-600"></p>
+        </div>
+    </div>
+
+    <script>
+        async function fetchData() {
+            const response = await fetch('/api/financial_data');
+            const data = await response.json();
+            
+            // Update Summary
+            document.getElementById('summary').innerText = data.summary;
+
+            // Update Transactions Table
+            const transactionsBody = document.getElementById('transactions');
+            transactionsBody.innerHTML = data.transactions.map(t => `
+                <tr class="border-b">
+                    <td class="p-3">${t.Description}</td>
+                    <td class="p-3">$${t.Amount.toFixed(2)}</td>
+                    <td class="p-3">${t.Category}</td>
+                </tr>
+            `).join('');
+
+            // Update Advice
+            document.getElementById('advice').innerText = data.advice;
+
+            // Category Chart
+            const categories = {};
+            data.transactions
+                .filter(t => t.IncomeExpense === 'Expense')
+                .forEach(t => {
+                    categories[t.Category] = (categories[t.Category] || 0) + t.Amount;
+                });
+
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(categories),
+                    datasets: [{
+                        data: Object.values(categories),
+                        backgroundColor: [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF',
+                            '#FF9F40', '#C9CBCF', '#7BC225', '#F7464A', '#00C4B4'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: context => `$${context.parsed.toFixed(2)}`
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        window.onload = fetchData;
+    </script>
+</body>
+</html>
